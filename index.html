@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Infotechnik</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="AI Bot">
+  <meta name="keywords" content="AI, AI Bot, Infotechnik">
+  <meta name="author" content="Anthony Fine">
+  <link rel="shortcut icon" href="assets/img/dude.png">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+
+<body>
+
+<div class="chat-app">
+  <div class="chat-header">
+    <div class="brand">
+      <h1>Infotechnik</h1>
+    </div>
+  </div>
+
+  <div class="chat-messages" id="chatMessages">
+    <!-- welcome message from AI -->
+    <div class="message ai">
+      <div class="message-avatar">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.5">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><path/>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+      </div>
+      <div class="message-content">
+        <p>Hey, I'm Infotechnik AI that helps you with IT needs. Please answer some of the following questions so that we can generate a response that will help you find the information you are looking for.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-input-container">
+    <div class="input-wrapper">
+      <label for="userInput"></label>
+      <textarea id="userInput" placeholder="Type your message..." rows="1"></textarea>
+      <button id="sendBtn" aria-label="Send message">
+        <svg viewBox="0 0 24 24" stroke="currentColor">
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
