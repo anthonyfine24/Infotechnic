@@ -1,0 +1,6 @@
+This code does not have a workable API Key.
+If you access the website "https://anthonyfine24.github.io/Infotechnic/index.html", then the final output from the program will not work.
+
+Open the js folder and open the script.js file. In this file replace "API KEY HERE" with your api key and the code will give you an output at the end.
+
+This program was tested using a Gemini API key.
